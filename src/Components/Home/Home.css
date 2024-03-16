@@ -1,0 +1,118 @@
+.home-about{
+    width:90vw;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.separator{
+    position: relative;
+    display: flex;
+    /* justify-content: center;*/
+    align-items: center; 
+    gap:1em;
+    width:4rem;
+    height: 4px;
+    border-radius: 1rem;
+    background-color: #47bce7;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+
+}
+
+/* .dot::after,::before{
+    content: '';
+    width: 30px;
+    height: 1px;
+    background-color: #718093;
+} */
+.separator div{
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: #01b8fa;
+    border-radius: 50%;
+    -webkit-box-shadow: 1px 3px 21px 4px rgba(12,205,230,1);
+    -moz-box-shadow: 1px 3px 21px 4px rgba(12,205,230,1);
+    box-shadow: 1px 3px 21px 4px rgba(12,205,230,1);
+   animation: btnanime ease-in-out 2s infinite;
+}
+@keyframes btnanime {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(3.3rem);
+    }
+    
+}
+.home-about-inner{
+    width: 80vw;
+    margin: 2rem auto;
+    background: url(../../Assets/home-about-img.png);
+    background-size: cover;
+    padding: 2rem;
+    color: #fff;
+    text-align: center;
+
+}
+.home-about-btn{
+    color: #fff;
+    background-color: #7f8fa6;
+    padding:0.5rem 1rem;
+    border-radius: 50px;
+    margin-top: 11rem;
+}
+.home-about-btn:hover{
+    background-color: #718093;
+}
+.home-card-container{
+    width: 90vw;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin: 3rem auto;
+}
+.home-cards{
+    width: 30%;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.home-cards:hover{
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.home-product-btn{
+    color: #fff;
+    background-color: #00183a;
+    padding:0.5rem 1rem;
+    border-radius: 50px;
+    margin-top: 11rem;
+}
+.home-product-btn:hover{
+    color: #fff;
+    background-color: #060a55;
+    padding:0.5rem 1rem;
+    border-radius: 50px;
+    margin-top: 11rem;
+}
+.service-icon{
+    padding: 1rem;
+    background-color: #000c3d;
+    border-radius: 2.5rem;
+    font-size: 2rem;
+    color: #fff;
+}
+
+/* media queries */
+
+@media screen and (max-width:425px){
+    .home-card-container{
+        width: 100vw;
+        flex-direction: column;
+        margin: 1rem auto;
+    }
+    .home-cards{
+        width: 70%;
+       
+    }
+}

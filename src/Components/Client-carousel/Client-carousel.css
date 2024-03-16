@@ -1,0 +1,13 @@
+.slider-container{
+    width: 80vw !important;
+    margin: 1rem auto;
+}
+.list-container img{
+    width: 10rem;
+}
+.slick-arrow{
+    display: none !important;
+}
+.slick-track{
+    padding: 0 !important;
+}

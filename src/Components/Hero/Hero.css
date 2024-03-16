@@ -1,0 +1,53 @@
+
+.imgchangebtn{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 3rem;
+    left: 12rem;
+   
+}
+.imgchangebtn .activebtn{
+    width: 1.5rem;
+    height: 0.8rem;
+    margin: 0.5rem;
+    background-color: #6a89cc;
+    border-radius: 25%;
+    z-index: 1;
+    cursor:pointer;
+}
+.activebtn.green{
+   
+    background-color: #0c2461;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.imgchangebtn div:hover{
+    background-color: #0c2461;
+}
+.videocontrolbtn{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #fff;
+    bottom: 3rem;
+    right: 9rem;
+  
+}
+.videocontrolbtn img:hover{
+    cursor: pointer;
+    
+}
+@media screen and (max-width: 425px){
+    .imgchangebtn{
+        left:2px;
+    }
+    .videocontrolbtn{
+        right: 4px;
+        bottom: 2rem;
+        gap: 0.5rem;
+    }
+    .videocontrolbtn img{
+        width: 3rem;
+    }
+}

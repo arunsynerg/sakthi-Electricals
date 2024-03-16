@@ -1,0 +1,36 @@
+.Backgroud-image img,video{
+    position: static;
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    animation: fade-in 500ms ease-in-out;
+   
+}
+/* .Backgroud-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.img-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@keyframes fade-in {
+    from{
+        opacity: 0;
+        transform: translateY(-500px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+
