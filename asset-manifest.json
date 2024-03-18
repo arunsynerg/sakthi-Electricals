@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sakthi-Electricals/static/css/main.8cebb1dc.css",
-    "main.js": "/sakthi-Electricals/static/js/main.d290eeb9.js",
+    "main.css": "/sakthi-Electricals/static/css/main.9e5a9ae0.css",
+    "main.js": "/sakthi-Electricals/static/js/main.c37e9156.js",
     "static/js/453.36cb15af.chunk.js": "/sakthi-Electricals/static/js/453.36cb15af.chunk.js",
     "static/media/introvideo.mp4": "/sakthi-Electricals/static/media/introvideo.a787451c77309ab1652d.mp4",
     "static/media/image-1.jpg": "/sakthi-Electricals/static/media/image-1.1259f5c473781d8178df.jpg",
@@ -22,12 +22,12 @@
     "static/media/slick.ttf": "/sakthi-Electricals/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/sakthi-Electricals/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/sakthi-Electricals/index.html",
-    "main.8cebb1dc.css.map": "/sakthi-Electricals/static/css/main.8cebb1dc.css.map",
-    "main.d290eeb9.js.map": "/sakthi-Electricals/static/js/main.d290eeb9.js.map",
+    "main.9e5a9ae0.css.map": "/sakthi-Electricals/static/css/main.9e5a9ae0.css.map",
+    "main.c37e9156.js.map": "/sakthi-Electricals/static/js/main.c37e9156.js.map",
     "453.36cb15af.chunk.js.map": "/sakthi-Electricals/static/js/453.36cb15af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cebb1dc.css",
-    "static/js/main.d290eeb9.js"
+    "static/css/main.9e5a9ae0.css",
+    "static/js/main.c37e9156.js"
   ]
 }
