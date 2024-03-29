@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/sakthi-Electricals/static/css/main.9e5a9ae0.css",
-    "main.js": "/sakthi-Electricals/static/js/main.c37e9156.js",
+    "main.css": "/sakthi-Electricals/static/css/main.ce9934b2.css",
+    "main.js": "/sakthi-Electricals/static/js/main.1b493b4c.js",
     "static/js/453.36cb15af.chunk.js": "/sakthi-Electricals/static/js/453.36cb15af.chunk.js",
     "static/media/introvideo.mp4": "/sakthi-Electricals/static/media/introvideo.a787451c77309ab1652d.mp4",
+    "static/media/customerPage.jpg": "/sakthi-Electricals/static/media/customerPage.b480d3d3f1ff4c19fb47.jpg",
     "static/media/image-1.jpg": "/sakthi-Electricals/static/media/image-1.1259f5c473781d8178df.jpg",
     "static/media/product1.png": "/sakthi-Electricals/static/media/product1.902e2681465bec25b248.png",
+    "static/media/about1.png": "/sakthi-Electricals/static/media/about1.9ce70456ec9a7abeb10d.png",
     "static/media/home-about-img.png": "/sakthi-Electricals/static/media/home-about-img.f1603f59b0875b173dfc.png",
     "static/media/logo.png": "/sakthi-Electricals/static/media/logo.a7191afa4bd28ed57f39.png",
+    "static/media/about2.png": "/sakthi-Electricals/static/media/about2.86a3832dfe2b46014fab.png",
     "static/media/image1.jpg": "/sakthi-Electricals/static/media/image1.37916dfd7e3c2163cfaa.jpg",
     "static/media/image2.jpg": "/sakthi-Electricals/static/media/image2.76529287786394cb2736.jpg",
     "static/media/image3.jpg": "/sakthi-Electricals/static/media/image3.e0a95c96a3e5e5ba3449.jpg",
@@ -15,19 +18,22 @@
     "static/media/contact.svg": "/sakthi-Electricals/static/media/contact.851b443992a1e12c5e30c8d9fedb67db.svg",
     "static/media/1.jpg": "/sakthi-Electricals/static/media/1.d47315c1855cb2700bbd.jpg",
     "static/media/3.jpg": "/sakthi-Electricals/static/media/3.baa46370ffbd711eaa91.jpg",
+    "static/media/leadership.png": "/sakthi-Electricals/static/media/leadership.4cdaff5d5e0f6c5765b5.png",
+    "static/media/vision.png": "/sakthi-Electricals/static/media/vision.33a508d6b39628b75ef0.png",
     "static/media/6.jpg": "/sakthi-Electricals/static/media/6.ad30c3221971efaeb481.jpg",
+    "static/media/mission.png": "/sakthi-Electricals/static/media/mission.9c7e0e2c650a5a0a0a58.png",
     "static/media/2.jpg": "/sakthi-Electricals/static/media/2.41c3e4633c7196f341c1.jpg",
     "static/media/slick.svg": "/sakthi-Electricals/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/sakthi-Electricals/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/sakthi-Electricals/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/sakthi-Electricals/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/sakthi-Electricals/index.html",
-    "main.9e5a9ae0.css.map": "/sakthi-Electricals/static/css/main.9e5a9ae0.css.map",
-    "main.c37e9156.js.map": "/sakthi-Electricals/static/js/main.c37e9156.js.map",
+    "main.ce9934b2.css.map": "/sakthi-Electricals/static/css/main.ce9934b2.css.map",
+    "main.1b493b4c.js.map": "/sakthi-Electricals/static/js/main.1b493b4c.js.map",
     "453.36cb15af.chunk.js.map": "/sakthi-Electricals/static/js/453.36cb15af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e5a9ae0.css",
-    "static/js/main.c37e9156.js"
+    "static/css/main.ce9934b2.css",
+    "static/js/main.1b493b4c.js"
   ]
 }
