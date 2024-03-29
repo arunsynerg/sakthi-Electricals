@@ -12,10 +12,10 @@ function Hero({count, Setcount, playstatus, Setplaystatus}){
                 <div className={count===1 ? 'activebtn green' : 'activebtn'} onClick={()=>Setcount(1)}></div>
                 <div className={count===2 ? 'activebtn green' : 'activebtn'} onClick={()=>Setcount(2)}></div>
             </div>
-            <div className='videocontrolbtn'>
+            {/* <div className='videocontrolbtn'>
                 <img src={playstatus ? pausebtn : playbtn} onClick={()=>Setplaystatus(!playstatus)}/>
                 <p>See the video</p>
-            </div>
+            </div> */}
         </div>
     )
 }

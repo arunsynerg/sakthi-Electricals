@@ -27,30 +27,37 @@ function Navbar() {
           <img src={logo} />
         </div>
         <ul className="navlists">
-          <Link to="/" smooth={true} duration={900} offset={-960}>
-            {" "}
+          <Link to="/">
+           
             <li>Home</li>
           </Link>
-          <Link to="about" smooth={true} duration={900} offset={-55}>
+          <Link to="/about">
             <li>About</li>
           </Link>
-          <Link to="product" smooth={true} duration={900} offset={-50}>
+          <Link to="/products">
             <li className="products">
               Products
               <ul>
-                <li>product1</li>
+                <li>
+                  product1
+                  <ul>
+                    <li>product1</li>
+                    <li>productdfsdf2</li>
+                    <li>product3</li>
+                  </ul>
+                </li>
                 <li>productdfsdf2</li>
                 <li>product3</li>
               </ul>
             </li>
           </Link>
-          <Link to="service" smooth={true} duration={900} offset={-55}>
+          <Link to="Ourcustomer">
             <li>Our Customers</li>
           </Link>
-          <Link to="CareerPage" smooth={true} duration={900} offset={-50}>
+          <Link to="CareerPage">
             <li>Careers</li>
           </Link>
-          <Link to="contact" smooth={true} duration={900} offset={-50}>
+          <Link to="contact">
             <li>Contact</li>
           </Link>
         </ul>
@@ -73,8 +80,7 @@ function Navbar() {
         style={{ display: navlist ? "block" : "none" }}
       >
         <ul className="navlists_mobileview">
-          <Link to="/" smooth={true} duration={900} offset={-960}>
-            {" "}
+          <Link to="/">
             <li
               onClick={handlelist}
               style={{ display: navlist ? "block" : "none" }}
@@ -82,7 +88,7 @@ function Navbar() {
               Home
             </li>
           </Link>
-          <Link to="about" smooth={true} duration={900} offset={-55}>
+          <Link to="about">
             <li
               onClick={handlelist}
               style={{ display: navlist ? "block" : "none" }}
@@ -90,7 +96,7 @@ function Navbar() {
               About
             </li>
           </Link>
-          <Link to="product" smooth={true} duration={900} offset={-50}>
+          <Link to="product">
             <li
               onClick={handlelist}
               style={{ display: navlist ? "block" : "none" }}
@@ -98,7 +104,7 @@ function Navbar() {
               Products
             </li>
           </Link>
-          <Link to="product" smooth={true} duration={900} offset={-50}>
+          <Link to="product">
             <li className="products">
               Products
               <ul>
@@ -108,15 +114,15 @@ function Navbar() {
               </ul>
             </li>
           </Link>
-          <Link to="service" smooth={true} duration={900} offset={-55}>
+          <Link to="Ourcustomer">
             <li
               onClick={handlelist}
               style={{ display: navlist ? "block" : "none" }}
             >
-              Services
+              ourCustomer
             </li>
           </Link>
-          <Link to="CareerPage" smooth={true} duration={900} offset={-50}>
+          <Link to="CareerPage">
             <li
               onClick={handlelist}
               style={{ display: navlist ? "block" : "none" }}
@@ -124,7 +130,7 @@ function Navbar() {
               Careers
             </li>
           </Link>
-          <Link to="contact" smooth={true} duration={900} offset={-50}>
+          <Link to="contact">
             <li
               onClick={handlelist}
               style={{ display: navlist ? "block" : "none" }}

@@ -1,0 +1,31 @@
+.reason-container{
+    width: 65vw;
+    margin: 0 auto;
+}
+.reason-card{
+    color: #fff;
+    padding: 1rem;
+    background-color: #40739e;
+  
+}
+.news-card{
+    color: #fff;
+    padding: 1rem;
+    background-color: #487eb0;
+}
+.reason-card h3{
+    color:#000c3d;
+}
+.news-card h3{
+    color:#000c3d;
+}
+.lightning{
+    color: #f1c40f;
+    padding-right: 10px;
+}
+@media screen and (max-width:1024px) {
+    .reason-container{
+        width: 80vw;
+    }
+
+}

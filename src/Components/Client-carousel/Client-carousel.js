@@ -7,7 +7,7 @@ import client3 from '../../Assets/3.jpg'
 import client4 from '../../Assets/6.jpg'
 import client5 from '../../Assets/7.jpg'
 
-function CenterMode() {
+function Clients() {
     const clientList = [
         {img : client1},
         {img : client2},
@@ -72,4 +72,4 @@ function CenterMode() {
   );
 }
 
-export default CenterMode;
+export default Clients;

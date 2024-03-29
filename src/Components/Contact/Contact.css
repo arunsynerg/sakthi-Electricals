@@ -14,7 +14,7 @@
 .contact-left{
    position: relative;
     width: 100%;
-    /* background-image: url('../../Assets/image-1.jpg'); */
+    background-color: black;
    
     object-fit: cover;
     padding: 1.3rem;
@@ -42,7 +42,7 @@ margin:0 auto;
 ::placeholder {
   color: #c9c4c4;
 }
-input[type='text']{
+.form-input input[type='text']{
   
   outline:none;
     width: 80%;
@@ -52,7 +52,7 @@ input[type='text']{
     background: transparent;
     color: #fff;
 }
-textarea{
+.form-group-message textarea{
   width: 90%;
   min-height: 5.5rem;
   padding: 10px;

@@ -61,9 +61,15 @@
 .navlists_mobileview{
    display: flex;
    flex-direction: column;
-   align-items: center;
+   align-items: start;
    justify-content: center;
-   padding: 0;
+   padding-left: 2rem;
+}
+.navlists_mobileview li ul{
+   
+   
+    display: none;
+   
 }
 .navlists{
   
@@ -72,22 +78,24 @@
     align-items: center;
 }
 .navlists li{
+    position: relative;
     font-weight: 500;
     padding: 0.9rem 1.5rem;
     cursor:pointer;
     transition: all ease-in 0.5s;
+    color: #080808;
 
 }
 .navlists li:hover{
     background-color: #ecf0f1;
-    color: #080808;
+  
 }
 
 .navlists li ul{
     position: absolute;
     margin-top: 10px;
     display: none;
-   
+   text-indent: 0;
 }
 .products:hover ul{
     display: block;

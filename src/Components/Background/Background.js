@@ -32,6 +32,7 @@ function Background({count, Setcount, playstatus, Setplaystatus}){
     else{
         return(
             <div>
+                {/* <div className="Backgroud-image fade-in" style={{backgroundImage: `url(${imgurl})`, backgroundSize:'cover'}}> */}
                 <div className="Backgroud-image fade-in">
                     <div className='img-content'>
                         <h1>{content[count].text}</h1>

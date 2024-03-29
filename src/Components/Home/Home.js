@@ -7,7 +7,8 @@ import { useEffect } from 'react';
 import { GiDeskLamp } from "react-icons/gi";
 import Footer from "../Footer/Footer.js";
 import Products from "../ourProducts/Products.js";
-import CenterMode from "../Client-carousel/Client-carousel.js";
+import Clients from "../Client-carousel/Client-carousel.js";
+import Whysakthi from "./Whysakthi.js";
 function Home() {
     const [count, Setcount] = useState(0);
     const [playstatus, Setplaystatus] = useState(false);
@@ -31,7 +32,8 @@ function Home() {
       </div>
     </div>
     <div class="home-about-inner">
-          <h2>Over 46 Years of Experience in this Business.</h2>
+      <div className="home-about-inner-content">
+      <h2>Over 46 Years of Experience in this Business.</h2>
           <p> Kalpa Electrikal Pvt. Ltd., an ISO 9001:2015 Certified Company, established in 1978 in Bengaluru, India.
 Globally Preferred, India Centric manufacturers & exporters of LV & MV Instrument Transformers for
 Indoor & Outdoor applications, Dry Type Control, Power Transformers, Oil filled Distribution
@@ -41,7 +43,9 @@ Transformers, Line Chokes/Reactors and Special Application Transformers.</p>
 are tested for Quality Assurance at the Company’s sophisticated laboratory before final dispatch.
 </p><br/>
          <a href="" data-text="About Us" class="home-about-btn"><span>About Us</span></a> 
-         </div>
+        
+      </div>
+           </div>
 
          <div className="home-card-container">
             <div className="home-cards">
@@ -68,7 +72,8 @@ quality components, which are procured from reliable vendors. </p>
          </div>
       
         <Products />
-        <CenterMode />
+        <Whysakthi />
+        <Clients />
     {/* <Footer /> */}
     </>
   );

@@ -1,5 +1,5 @@
 .slider-container{
-    width: 80vw !important;
+    width: 65vw !important;
     margin: 1rem auto;
 }
 .list-container img{
@@ -10,4 +10,11 @@
 }
 .slick-track{
     padding: 0 !important;
+}
+
+@media screen and (max-width:1024px){
+    .slider-container{
+        width: 80vw !important;
+      
+    }
 }

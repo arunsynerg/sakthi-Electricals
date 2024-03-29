@@ -38,9 +38,15 @@
     cursor: pointer;
     
 }
+@media screen and (max-width:768px){
+    .imgchangebtn{      
+        top: 65%;      
+    }
+}
 @media screen and (max-width: 425px){
     .imgchangebtn{
         left:2px;
+        top: 58%; 
     }
     .videocontrolbtn{
         right: 4px;
@@ -50,4 +56,5 @@
     .videocontrolbtn img{
         width: 3rem;
     }
+    
 }
