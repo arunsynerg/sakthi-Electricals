@@ -36,3 +36,16 @@ textarea{
     outline: none;
     border: none;
 }
+
+/* media queries */
+@media screen and (max-width:768px){
+    .career-page{
+        width: 70%;
+    }
+}
+@media screen and (max-width:425px){
+    .career-page{
+        width: 90%;
+        
+    }
+}
